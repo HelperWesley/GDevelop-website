@@ -106,7 +106,7 @@ export default class IndexPage extends React.Component {
                   <WhiteParagraph textAlign="center">
                     <MarkdownText
                       source={t(
-                        'Join the community on [Discord](https://discord.gg/rjdYHvj) and our [forums](https://forum.gdevelop-app.com).'
+                        'Join the community on [Discord](https://discord.gg/rjdYHvj) and on our [forums](https://forum.gdevelop-app.com).'
                       )}
                     />
                   </WhiteParagraph>
