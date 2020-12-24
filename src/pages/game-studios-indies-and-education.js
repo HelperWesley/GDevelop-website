@@ -56,7 +56,10 @@ export default class UseCasesPage extends React.Component {
               <Paragraph>
                 <MarkdownText
                   source={t(
-                    'GDevelop is a lightweight game engine, carefully designed and open-source. The unique design of the editor has been explained during [talks in international conferences](https://www.youtube.com/watch?v=6La7jSCnYyk).'
+                    'GDevelop is a lightweight game engine, carefully designed and open-source. The unique design of the editor has been explained during [talks in international conferences](PLACEHOLDER_LINK_DO_NOT_TRANSLATE).'
+                  ).replace(
+                    'PLACEHOLDER_LINK_DO_NOT_TRANSLATE',
+                    'https://www.youtube.com/watch?v=sMfNWIbWUb0'
                   )}
                 />
                 <List>

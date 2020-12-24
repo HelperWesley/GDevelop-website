@@ -9,7 +9,7 @@ import config from '../config';
 
 const MakeGameBanner = ({ t, title, text, background, dimmed }) => (
   <BannerContainer background={background} dimmed={dimmed}>
-    <WhiteHugeTitle>{title || t('Make your first game')}</WhiteHugeTitle>
+    <WhiteHugeTitle>{title || t('Game creation, made simple')}</WhiteHugeTitle>
     <WhiteParagraph>
       {text ||
         t(

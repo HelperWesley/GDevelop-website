@@ -82,14 +82,7 @@ export default class FeaturesPage extends React.Component {
                 <ListItem>
                   <MarkdownText
                     source={t(
-                      'Export your game to iOS (with [PhoneGap Build or Cordova](http://wiki.compilgames.net/doku.php/gdevelop5/publishing/android_and_ios_with_cordova)).'
-                    )}
-                  />
-                </ListItem>
-                <ListItem>
-                  <MarkdownText
-                    source={t(
-                      'Publish your game on [Poki](/poki), Kongregate, Itch.io and other gaming website!'
+                      'Export your game to iOS (with [a Mac](http://wiki.compilgames.net/doku.php/gdevelop5/publishing/android_and_ios_with_cordova)).'
                     )}
                   />
                 </ListItem>
@@ -105,6 +98,13 @@ export default class FeaturesPage extends React.Component {
                       )}
                     />
                   </i>
+                </ListItem>
+                <ListItem>
+                  <MarkdownText
+                    source={t(
+                      'Publish your game on [Poki](/poki), Kongregate, Itch.io and other gaming websites!'
+                    )}
+                  />
                 </ListItem>
                 <ListItem>
                   <MarkdownText
@@ -166,6 +166,14 @@ export default class FeaturesPage extends React.Component {
                       'Draw custom shapes on screen with **Shape Painters**'
                     )}
                   />
+                </ListItem>
+                <ListItem>
+                  <MarkdownText
+                    source={t(
+                      'Author maps of your tile-based game in Tiled and import them in a **Tilemap** object'
+                    )}
+                  />{' '}
+                  - <i>{t('coming soon!')}</i>
                 </ListItem>
                 <ListItem>{t('Support for custom collision masks')}</ListItem>
               </List>
@@ -258,6 +266,11 @@ export default class FeaturesPage extends React.Component {
                   )}
                 </ListItem>
               </List>
+              <WhiteParagraph>
+                {t(
+                  'Dozens of additional behaviors are available throught community extensions, which can be discovered and imported in one click directly from the GDevelop editor.'
+                )}
+              </WhiteParagraph>
               <CenteredRow>
                 <WhiteBigButton to="http://wiki.compilgames.net/doku.php/gdevelop5/behaviors">
                   {t('Read the documentation for all behaviors')}
@@ -280,6 +293,16 @@ export default class FeaturesPage extends React.Component {
                 </ListItem>
                 <ListItem>
                   {t('Support for touchscreens & multi-touch')}
+                </ListItem>
+                <ListItem>
+                  <MarkdownText
+                    source={t(
+                      'Support for [PlayStation, Xbox and generic gamepads](LINK_PLACEHOLDER_DO_NOT_TRANSLATE)'
+                    ).replace(
+                      'LINK_PLACEHOLDER_DO_NOT_TRANSLATE',
+                      'http://wiki.compilgames.net/doku.php/gdevelop5/all-features/gamepad'
+                    )}
+                  />
                 </ListItem>
               </List>
             </TransparentContainer>
