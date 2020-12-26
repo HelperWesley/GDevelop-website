@@ -692,7 +692,7 @@ const bannerGames = {
     ],
   },
   inAndOutNightBurglar: {
-    imageSrc: require('../img/games/in-and-out/banner.png'),
+    imageSrc: require('../img/games/in-and-out/Website Banner Attempt 2.png'),
     secondaryImageSrc: require('../img/games/in-and-out/square.png'),
     title: 'In And Out - Night Burglar',
     author: 'Helper Wesley',
@@ -704,6 +704,41 @@ const bannerGames = {
       {
         linkType: 'Itch.io',
         link: 'https://helperwesley.itch.io/inandout-night-burglar',
+      },
+    ],
+  },
+  AsteroidDigMobile: {
+    imageSrc: require('../img/games/Asteroid Dig/Website Banner Asteroid dig.png'),
+    secondaryImageSrc: require('../img/games/Asteroid Dig/Website Square Asteroid dig.png'),
+    title: 'Asteroid Dig - Mobile',
+    author: 'Helper Wesley',
+    descriptionParagraphs: [
+      'You work for the soulless Arkon Company, harvesting minerals from asteroids in the solar system.'
+      "Working in space can be lonely work, made worse because they don't give you enough funding to pay for a crew. You long for the day you've earned enough credits to retire back on earth.",
+      "But til then, you just keep diggin."
+    ],
+    links: [
+      {
+        linkType: 'GooglePlay',
+        link: 'https://play.google.com/store/apps/details?id=com.HelperWesley.AsteroidDig',
+      },
+    ],
+  },
+  GalaxyBash: {
+    imageSrc: require('../img/games/Galaxy Bash/Website Banner Galaxy Bash.png'),
+    secondaryImageSrc: require('../img/games/Galaxy Bash/Website Square Galaxy Bash.png'),
+    title: 'Galaxy Bash',
+    author: 'Helper Wesley',
+    descriptionParagraphs: [
+      "You're a blackhole, and you need stars to sustain yourself.",
+
+      'Satisfyingly bash in to the edge of the universe while trying to collect stars within a time limit. Earning higher scores will unlock different color selections in the main menu to use in game.',
+      "This game's base version was made in just 7 days using Gdevelop!"
+    ],
+    links: [
+      {
+        linkType: 'GooglePlay',
+        link: 'https://play.google.com/store/apps/details?id=com.GalaxyBash',
       },
     ],
   },
